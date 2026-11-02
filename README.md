@@ -54,6 +54,8 @@ scripts/start.sh
 
 We used Codex Plan mode to explore the idea, research similar tools, and break the work into small milestones before writing code. We reviewed and approved each milestone, then used Codex to build and test the drawing, private approval, OBS, moderation, and Twitch integration flows. When we found problems or wanted a different direction, we described the changes in the same chat and Codex revised the implementation—for example, fixing notification timing, privacy when leaving a room, and out-of-order queue updates. We also reviewed and improved the project ourselves between Codex-assisted iterations.
 
+**Codex session ID(s):** `01a17e14-fcf3-7481-9d24-38f51b3ba8ed`
+
 ## Honest limits
 
 - Local-first prototype: rooms live in memory and reset when the server restarts.
