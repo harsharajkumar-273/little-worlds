@@ -50,11 +50,9 @@ scripts/start.sh
 
 `scripts/start.sh` asks for your OpenAI key and Twitch app credentials at hidden prompts, optionally takes a Cloudflare Quick Tunnel address for remote viewers, runs a preflight check, and starts the server at http://127.0.0.1:8765. Costs are small: moderation is free, and each AI image is roughly a cent or two.
 
-For a video walkthrough script, see [DEMO.md](DEMO.md).
-
 ## Built with Codex
 
-_Add 3 or 4 sentences here: what you asked Codex to build, what it got right, what you had to correct, and what surprised you._
+We used Codex Plan mode to explore the idea, research similar tools, and break the work into small milestones before writing code. We reviewed and approved each milestone, then used Codex to build and test the drawing, private approval, OBS, moderation, and Twitch integration flows. When we found problems or wanted a different direction, we described the changes in the same chat and Codex revised the implementation—for example, fixing notification timing, privacy when leaving a room, and out-of-order queue updates. We also reviewed and improved the project ourselves between Codex-assisted iterations.
 
 ## Honest limits
 
