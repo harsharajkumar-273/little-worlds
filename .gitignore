@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+live_art_result.webp
+.venv/
+.claude/
